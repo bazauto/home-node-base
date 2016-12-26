@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/bazauto/home-node-base.svg?branch=master)](https://travis-ci.org/bazauto/home-node-base)
+
 # home-node-base
 
 ## Objective

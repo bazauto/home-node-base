@@ -7,23 +7,24 @@
     "test": "mocha test/unit/**/*.js"
   },
   "repository": {
-	    "type": "git",
-	    "url": "https://github.com/bazauto/home-node-base.git"
-	  },
+    "type": "git",
+    "url": "https://github.com/bazauto/home-node-base.git"
+  },
   "keywords": [
     "Node.js",
     "Eclipse",
     "Nodeclipse"
   ],
   "author": {
-	  "name": "Paul Barrett",
-	  "email": "pbarrett@bazautomation.com",
-	  "url": "http://www.bazautomation.com"
+    "name": "Paul Barrett",
+    "email": "pbarrett@bazautomation.com",
+    "url": "http://www.bazautomation.com"
   },
   "license": "MIT",
   "private": true,
   "readmeFilename": "README.md",
   "devDependencies": {
+    "mocha": "^3.2.0",
     "chai": "^3.5.0",
     "sinon": "^1.17.6"
   },

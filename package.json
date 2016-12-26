@@ -2,17 +2,33 @@
   "name": "home-node-base",
   "version": "0.1.0",
   "description": "home-node-base",
-  "main": "hello-world-server.js",
+  "main": "src/home-node-base.js",
   "scripts": {
-    "test": "echo \"Error: no test specified! Configure in package.json\" && exit 1"
+    "test": "mocha test/unit/**/*.js"
   },
-  "repository": "",
+  "repository": {
+	    "type": "git",
+	    "url": "https://github.com/bazauto/home-node-base.git"
+	  },
   "keywords": [
     "Node.js",
     "Eclipse",
     "Nodeclipse"
   ],
-  "author": "",
-  "license": "BSD",
-  "readmeFilename": "README.md"
+  "author": {
+	  "name": "Paul Barrett",
+	  "email": "pbarrett@bazautomation.com",
+	  "url": "http://www.bazautomation.com"
+  },
+  "license": "MIT",
+  "private": true,
+  "readmeFilename": "README.md",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "sinon": "^1.17.6"
+  },
+  "dependencies": {
+    "q": "^1.4.1",
+    "q-connection": "^0.6.1"
+  }
 }
